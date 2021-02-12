@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/figimg"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/disc"
+        android:padding="8dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jk"/>
+
+    <ImageView
+        android:id="@+id/cloimg"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/disc"
+        android:padding="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fig" />
+    <TextView
+        android:id="@+id/figur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Figures"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#00aaff"
+        android:layout_below="@id/figimg"
+        />
+
+
+    <TextView
+        android:id="@+id/cloth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:layout_marginRight="60dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#00aaff"
+        android:layout_below="@id/cloimg"
+        />
+
+    <TextView
+        android:id="@+id/anime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:text="Anime Shop"
+        android:textColor="#0000a1"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/blackjack"
+        />
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you will find the newest figures
+        and exclusive offers"
+        android:gravity="center_horizontal"
+        android:paddingRight="40dp"
+        android:fontFamily="@font/aushan"
+        android:textSize="23sp"
+        android:textColor="#00a158"
+        android:layout_below="@id/anime"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/cunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us "
+        android:fontFamily="@font/aushan"
+        android:textSize="23sp"
+        android:textColor="#00a158"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/figimg"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/mail"
+        android:text="mail:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@id/cunt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#00aaff"
+        />
+    <TextView
+        android:id="@+id/addr"
+        android:text="address:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@id/mail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#00aaff"
+        />
+    <TextView
+        android:id="@+id/mail0"
+        android:text="ak.bensalem@esi-sba.dz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_toRightOf="@id/mail"
+        android:layout_below="@id/cunt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:text="ESI SBA, Sidi Bel Abbess Algeria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/addr"
+        android:layout_below="@id/mail0"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
